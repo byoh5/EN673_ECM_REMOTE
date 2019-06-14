@@ -1,0 +1,22 @@
+﻿Build started 2017-12-26 오전 9:29:17.
+Project "c:\Users\EN674\documents\visual studio 2013\Projects\CLI\CLI\CLI.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CLI.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CLI.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CLI.cpp
+  CLI.cpp
+c:\users\en674\documents\visual studio 2013\projects\cli\cli\cli.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLI_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+  dllmain.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.lib" /MACHINE:X86 /DLL Debug\CLI.obj
+  Debug\dllmain.obj
+  Debug\stdafx.obj
+     Creating library c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.lib and object c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.exp
+  CLI.vcxproj -> c:\users\en674\documents\visual studio 2013\Projects\CLI\Debug\CLI.dll
+Done Building Project "c:\Users\EN674\documents\visual studio 2013\Projects\CLI\CLI\CLI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.23

@@ -1,0 +1,67 @@
+﻿빌드 시작: 2019-03-19 오후 2:42:22
+     1>2 노드의 "E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\test4\test4.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (test4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include" /I"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\EN673JTAGLib" /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _AFXDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt exr_lua.cpp remoteControl.cpp stdafx.cpp jtagControl.cpp WaveformImgOperation.cpp
+         exr_lua.cpp
+     1>exr_lua.cpp(225): warning C4244: '초기화 중' : 'lua_Number'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>exr_lua.cpp(747): warning C4244: '초기화 중' : 'lua_Number'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         remoteControl.cpp
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>remoteControl.cpp(251): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>remoteControl.cpp(361): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>remoteControl.cpp(479): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>remoteControl.cpp(503): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>remoteControl.cpp(980): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>remoteControl.cpp(1129): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+         stdafx.cpp
+         jtagControl.cpp
+     1>e:\jtag 3.0\2019-03-18\en673jtaglib_v3\en673jtaglib\spi_common.h(19): warning C4005: 'ASSERT' : 매크로 재정의
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(372) : 'ASSERT'의 이전 정의를 참조하십시오.
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>jtagControl.cpp(3392): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3393): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3394): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3395): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3396): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3397): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3398): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3399): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3445): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3446): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3447): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3448): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3449): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3456): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3457): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3458): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3459): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3460): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3461): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3462): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3463): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3468): warning C4244: '=' : 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3517): warning C4244: '초기화 중' : 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3875): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(3877): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>jtagControl.cpp(4215): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         WaveformImgOperation.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release\JtagControl.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\opencv\build\x86\vc12\lib" /LIBPATH:"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" EN673JTAG.lib ftd2xx.lib opencv_ts300.lib opencv_world300.lib lua5.1.lib lua51.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release\JtagControl.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release\JtagControl.lib" /MACHINE:X86 /SAFESEH Release\exr_lua.obj
+         Release\remoteControl.obj
+         Release\stdafx.obj
+         Release\jtagControl.obj
+         Release\WaveformImgOperation.obj
+         "E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release\EN673JTAG.lib"
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         test4.vcxproj -> E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\Release\JtagControl.exe
+     1>"E:\JTAG 3.0\2019-03-18\EN673JTAGLib_V3\test4\test4.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.18

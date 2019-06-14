@@ -1,0 +1,67 @@
+﻿빌드 시작: 2019-02-11 오후 2:11:58
+     1>2 노드의 "E:\ECM_Remote\ECM_client\Downloader\190211\Downloader\Downloader.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Downloader\lib /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Downloader.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Downloader\lib /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Downloader.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BtnST.cpp Define.cpp DownCompileOption673.cpp DownDownOption673.cpp DownOutput.cpp DownSectionWrite673.cpp Downloader.cpp DownloaderDlg.cpp EN673_Configuration_GeneratorDlg.cpp PeripheralDlg.cpp SPIDlg.cpp ShadeButtonST.cpp jtag_flash.cpp xDib.cpp
+         DownloaderDlg.cpp
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(1036): warning C4244: '초기화 중' : 'ULONGLONG'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(1860): warning C4102: 'END' : 참조되지 않은 레이블입니다.
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(1949): warning C4102: 'ENDDOWNFUNC5THREAD' : 참조되지 않은 레이블입니다.
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(2124): warning C4244: '초기화 중' : 'ULONGLONG'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(2143): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(2312): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+     1>e:\ecm_remote\ecm_client\downloader\190211\downloader\downloaderdlg.cpp(2318): warning C4390: ';' : 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+         코드를 생성하고 있습니다...
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         xDib.cpp
+         jtag_flash.cpp
+         ShadeButtonST.cpp
+         SPIDlg.cpp
+         PeripheralDlg.cpp
+         EN673_Configuration_GeneratorDlg.cpp
+         Downloader.cpp
+         DownSectionWrite673.cpp
+         DownOutput.cpp
+         DownDownOption673.cpp
+         DownCompileOption673.cpp
+         Define.cpp
+         BtnST.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ECM_Remote\ECM_client\Downloader\190211\Debug\Downloader.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Downloader\lib /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" CLI.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ECM_Remote\ECM_client\Downloader\190211\Debug\Downloader.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ECM_Remote\ECM_client\Downloader\190211\Debug\Downloader.lib" /MACHINE:X86 Debug\Downloader.res
+         Debug\BtnST.obj
+         Debug\Define.obj
+         Debug\DownCompileOption673.obj
+         Debug\DownDownOption673.obj
+         Debug\Downloader.obj
+         Debug\DownloaderDlg.obj
+         Debug\DownOutput.obj
+         Debug\DownSectionWrite673.obj
+         Debug\EN673_Configuration_GeneratorDlg.obj
+         Debug\jtag_flash.obj
+         Debug\PeripheralDlg.obj
+         Debug\ShadeButtonST.obj
+         Debug\SPIDlg.obj
+         Debug\stdafx.obj
+         Debug\xDib.obj
+     1>BtnST.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>Define.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>DownCompileOption673.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>DownDownOption673.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>Downloader.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>DownloaderDlg.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>DownOutput.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>DownSectionWrite673.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>EN673_Configuration_GeneratorDlg.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>jtag_flash.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>PeripheralDlg.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>ShadeButtonST.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>SPIDlg.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>stdafx.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+     1>xDib.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+         Downloader.vcxproj -> E:\ECM_Remote\ECM_client\Downloader\190211\Debug\Downloader.exe
+     1>"E:\ECM_Remote\ECM_client\Downloader\190211\Downloader\Downloader.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.41

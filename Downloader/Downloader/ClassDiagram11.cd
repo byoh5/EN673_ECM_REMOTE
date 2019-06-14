@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CDownloaderDlg">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDownloaderDlg::__unnamed_enum_0010_1">
+        <TypeIdentifier>
+          <NewMemberFileName>DownloaderDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EML6AyHAEEARhCgWBVA6QkRUATBo2AUAIAAISACSNAI=</HashCode>
+      <FileName>DownloaderDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownDownOption673">
+    <Position X="7.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDownDownOption673::__unnamed_enum_000c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DownDownOption673.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>cwEIEAFAgGAAgghAEBAEYAABACBoBPQSDAEBAAAAgMA=</HashCode>
+      <FileName>DownDownOption673.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownCompileOption673">
+    <Position X="4" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CDownCompileOption673::__unnamed_enum_000a_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DownCompileOption673.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CQAAAIEBQAgAAAgUABA0AQAAABAiAgAAgEAACQIAAAA=</HashCode>
+      <FileName>DownCompileOption673.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownSectionWrite673">
+    <Position X="10.75" Y="2" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDownSectionWrite673::__unnamed_enum_0014_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DownSectionWrite673.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAEAAAAAAAgAAJAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DownSectionWrite673.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDownOutput">
+    <Position X="10.75" Y="5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CDownOutput::__unnamed_enum_0012_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DownOutput.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQAAgAABAAAAAAAAAAgAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DownOutput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

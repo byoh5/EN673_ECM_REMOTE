@@ -1,0 +1,23 @@
+﻿빌드 시작: 2018-08-23 오후 2:57:36
+     1>2 노드의 "D:\2018\ECM_Remote\ECM_client\UARTString\180726\UARTString\UARTString.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IRelease\ /nologo /fo"Release\UARTString.res" UARTString.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2018\ECM_Remote\ECM_client\UARTString\180726\Release\UARTString.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2018\ECM_Remote\ECM_client\UARTString\180726\Release\UARTString.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2018\ECM_Remote\ECM_client\UARTString\180726\Release\UARTString.lib" /MACHINE:X86 /SAFESEH Release\UARTString.res
+         Release\BtnST.obj
+         Release\CommThread.obj
+         Release\Define.obj
+         Release\ShadeButtonST.obj
+         Release\stdafx.obj
+         Release\UARTString.obj
+         Release\UARTStringCmdLogDlg.obj
+         Release\UARTStringDlg.obj
+         Release\xDib.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         UARTString.vcxproj -> D:\2018\ECM_Remote\ECM_client\UARTString\180726\Release\UARTString.exe
+     1>"D:\2018\ECM_Remote\ECM_client\UARTString\180726\UARTString\UARTString.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.73
